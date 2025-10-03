@@ -1,7 +1,6 @@
 # root .gitignore
 client/
 
-
 # --- SERVER ---
 server/node_modules/
 server/.env
@@ -23,6 +22,13 @@ trading_app/DerivedData
 trading_app/*.ipa
 trading_app/.idea
 trading_app/.gradle
+trading_app/android/.gradle
+trading_app/android/.idea
+trading_app/android/.kotlin
+trading_app/android/build/
+trading_app/android/app/build/
+trading_app/android/app/.cxx
+trading_app/android/app/debug/
 trading_app/local.properties
 trading_app/*.iml
 trading_app/*.hprof
