@@ -1,0 +1,9 @@
+/client
+
+/server/node_modules
+/server/.env
+
+/trading_app/node_modules
+/trading_app/src/config/*
+
+/trading_chart/node_modules
