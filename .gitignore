@@ -1,9 +1,36 @@
-/client
+# root .gitignore
+client/
 
-/server/node_modules
-/server/.env
 
-/trading_app/node_modules
-/trading_app/src/config/*
+# --- SERVER ---
+server/node_modules/
+server/.env
 
-/trading_chart/node_modules
+# --- TRADING CHART ---
+trading_chart/node_modules/
+
+# --- TRADING APP (React-Native) ---
+trading_app/node_modules/
+trading_app/npm-debug.log
+trading_app/yarn-error.log
+trading_app/src/config/*
+trading_app/.DS_Store
+
+# Xcode / Android / Metro / itd.
+trading_app/build/
+trading_app/*.pbxuser
+trading_app/DerivedData
+trading_app/*.ipa
+trading_app/.idea
+trading_app/.gradle
+trading_app/local.properties
+trading_app/*.iml
+trading_app/*.hprof
+trading_app/.cxx/
+trading_app/*.keystore
+trading_app/!debug.keystore
+trading_app/.kotlin/
+trading_app/*.jsbundle
+trading_app/.metro-health-check*
+trading_app/coverage
+trading_app/vendor/bundle/
